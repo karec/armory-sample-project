@@ -9,13 +9,12 @@
     "hq_address": "127.0.0.1",
     "min_turrets": 1,
     "turrets": [
-        {"name": "navigation", "cannons": 2, "rampup": 0, "script": "test_scripts/v_user.py"},
-        {"name": "random", "cannons": 2, "rampup": 0, "script": "test_scripts/v_user.py"},
+        {"name": "navigation", "cannons": 2, "rampup": 0, "script": "test_scripts/basic_navigation.py"},
         {
             "name": "advanced-turret",
             "cannons": 2,
             "rampup": 0,
-            "script": "test_scripts/v_user.py",
+            "script": "test_scripts/selenium_example.py",
             "specific_turret_config": "my_value",
             "extra_files": [
                 "templates"
