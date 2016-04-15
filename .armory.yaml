@@ -1,0 +1,31 @@
+# global infos
+name: "oct armory sample"
+author: "karec"
+license: "mit"
+readme: "README.md" # optional, default to README.md
+
+# compatible turrets
+turrets:
+    - "python-turret"
+
+# keys to configure before running test
+global_configuration:
+    - run_time
+    - results_ts_interval
+    - hq_address
+    - publish_port
+    - rc_port
+
+# extra turrets keys
+extra_turret_config:
+    - base_url
+
+# tags for identification in armory
+tags:
+    - "web"
+    - "wordpress"
+
+# required dependencies to run tests
+dependencies:
+    - "requests"
+    - "selenium"
